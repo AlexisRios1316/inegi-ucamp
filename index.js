@@ -6,6 +6,7 @@ const urlTotal =
 const chartPaisPoblacion = document.querySelector("#poblacion-pais");
 const chartPoblacionTotal = document.querySelector("#Poblacion-Total");
 
+
 document.addEventListener("DOMContentLoaded", () => {
   getApoyos();
   getTotal();
@@ -89,4 +90,10 @@ const getTotal = async () => {
 
     const chart = new Chart(chartPoblacionTotal, chartConfig1);
   });
+
+  
+
+
 };
+
+

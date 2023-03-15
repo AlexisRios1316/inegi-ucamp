@@ -1,30 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css/index.css">
-    <title>Grafica del INEGI</title>
-  </head>
-  <body>
-   
-    <body>
-      <h1 style="text-align: center; color: rgb(0, 0, 0);">
-  
-  Grafica de Poblacione del INEGI
 
-      </h1>
-    
-      <div class="Grafica">
-      <canvas id="poblacion-pais" ></canvas>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <title>Grafica del INEGI</title>
+</head>
+
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div class="">
+        <div class="logo">
+          <span class="logo-icon">
+            <img src="https://assets.codepen.io/285131/almeria-logo.svg" />
+          </span>
+          <h1 class="logo-title">
+            <span>Bootcamp</span>
+            <span>2023</span>
+          </h1>
+        </div>
+      </div>
+    </header>
+    <div class="app-body">
+      <div class="app-body-navigation">
+        <nav class="navigation">
+          <a href="#">
+            <i class="ph-browsers"></i>
+            <span>Inicio</span>
+          </a>
+          <a href="#">
+            <i class="ph-check-square"></i>
+            <span>Información</span>
+          </a>
+          <a href="#">
+            <i class="ph-swap"></i>
+            <span>Blog</span>
+          </a>
+          <a href="#">
+            <i class="ph-file-text"></i>
+            <span>Sugerencias</span>
+          </a>
+        </nav>
+        <footer class="footer">
+          <h1>Trabajo Grupal<small>©</small></h1>
+          <div>
+            Bootcamp<br />
+          </div>
+        </footer>
+      </div>
+      <div class="app-body-main-content">
+        <section class="service-section">
+
+          <h2>Grafica de Poblacione del INEGI </h2>
+          <table class="Grafica">
+            <tr>
+              <td>
+                <canvas id="poblacion-pais"></canvas>
+              </td>
+              <td></td>
+              <td>
+                <canvas id="Poblacion-Total"></canvas>
+              </td>
+            </tr>
+
+          </table>
+        </section>
+      </div>
     </div>
 
-    <div class="Grafica">
-        <canvas id="Poblacion-Total" ></canvas>
-      </div>
+    <script src='https://unpkg.com/phosphor-icons'></script>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="./index.js"></script>
+</body>
 
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-  <script src="./index.js"></script>
 </html>

@@ -240,3 +240,14 @@
    font-size: 2em;
  }
  
+ /*Comunidad Page Styles*/
+ .col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-lg {
+  flex: 1 0 0%;
+}
+.pe-lg-1 {
+  padding-right: 0.25rem !important;
+}

@@ -4,3 +4,61 @@
     width: auto;
     object-fit: cover;
 }
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+/*header  */
+header {
+  border-bottom: 3px solid #5d5d5db0;
+  min-height: 70px;
+}
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.navbar {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  color: black;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+.lanzamientos {
+  padding-top: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
